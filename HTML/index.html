@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="../IMG/head/Neveon_Logo_black_Logo 1.png" type="image/png">
+    <title>Интернет-магазин поролона</title>
+    <script defer src="../js/js.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="#">
+                    <img class="logo__img" src="../IMG/head/Neveon_Logo_black_Logo 1.svg" alt="logo">
+                </a>
+                <div class="png-gps">
+                    <img class="location" src="../IMG/head/location.png" alt="gps">
+                </div>
+                <div class="adress_text">
+                    <div class="adress_top">г. Калининград <br> ул. Независимости, д. 10</div>
+                </div>
+                <div class="png-phone">
+                    <img class="phone" src="../IMG/head/phone.png" alt="phone">
+                </div>
+                <div class="phone-text">
+                    <div class="phone_top">+7 (800) 960-80-00</div>
+                    <div class="dni_raboty_top">Пн-Пт 09:00 - 21:00</div>
+                </div>
+                <div class="btn">
+                    <a class="ostavit_zayavku" href="#">Оставить заявку</a>
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Главная</a>
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Главная</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Мебельный поролон</a>
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Главная</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Технический поролон</a>
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Главная</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">О поролоне</a>
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Главная</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">О Компании</a>
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Главная</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Оплата и доставка</a>
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Главная</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Контакты</a>
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Главная</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    </div>
+    <div class="slider1">
+        <div class="item">
+            <img src="../IMG/slider/1.jpg" alt="Первый слайд">
+            <div class="slideText">
+                <div class="text1">Качественный поролон</div>
+                <div class="text2">от производителя в Калининграде</div>
+                <div class="text3">У нас вы можете купить поролон мебельный<br>для диванов и матрасов</div>
+                <div class="btn">
+                    <a class="podrobnee" href="#">Подробнее</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="../IMG/slider/2.jpg" alt="Второй слайд">
+            <div class="slideText">
+                <div class="text1">Качественный поролон</div>
+                <div class="text2">от производителя в Калининграде</div>
+                <div class="text3">У нас вы можете купить поролон мебельный<br>для диванов и матрасов</div>
+                <div class="btn">
+                    <a class="podrobnee" href="#">Подробнее</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="../IMG/slider/3.jpg" alt="Третий слайд">
+            <div class="slideText">
+                <div class="text1">Качественный поролон</div>
+                <div class="text2">от производителя в Калининграде</div>
+                <div class="text3">У нас вы можете купить поролон мебельный<br>для диванов и матрасов</div>
+                <div class="btn">
+                    <a class="podrobnee" href="#">Подробнее</a>
+                </div>
+            </div>
+        </div>
+
+        <a class="prev" onclick="minusSlide()">&#10094;</a>
+        <a class="next" onclick="plusSlide()">&#10095;</a>
+    </div>
+
+    <div class="slider1-dots">
+        <span class="slider1-dots_item" onclick="currentSlide(1)"></span>
+        <span class="slider1-dots_item" onclick="currentSlide(2)"></span>
+        <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+    </div>
+    <main>
+        <section class="tovari">
+            <div class="container">
+                <div class="tovari__inner">
+                    <div class="text-tovari">
+                        <div class="text1">Мы предлагаем вам большой выбор товаров</div>
+                        <div class="text2">Как принято считать, явные признаки победы институционализации призывают
+                            нас к
+                            новым свершениям, которые, в свою очередь, должны быть в равной степени<br>предоставлены
+                            сами себе. Для современного мира экономическая повестка сегодняшнего дня предоставляет
+                            широкие возможности для благоприятных перспектив.<br>
+                            А ещё интерактивные прототипы формируют глобальную экономическую сеть и при этом -
+                            разоблачены.</div>
+                    </div>
+                    <div class="meb-porolon">
+                        <p class="text1">Мебельный поролон</p>
+                        <div class="tovar">
+                            <div class="meb">
+
+                                <img class="1" src="../IMG/body/tovar/1.png" alt="Мебельный поролон">
+                                <p class="text">Мебельный поролон</p>
+
+                            </div>
+                            <div class="meb">
+
+                                <img class="2" src="../IMG/body/tovar/2.png" alt="Поролон для матрасов">
+                                <p class="text">Поролон для матрасов</p>
+
+                            </div>
+                            <div class="meb">
+
+                                <img class="3" src="../IMG/body/tovar/3.png" alt="Поролон с памятью">
+                                <p class="text">Поролон с памятью</p>
+                            </div>
+                            <div class="meb">
+
+                                <img class="4" src="../IMG/body/tovar/4.png" alt="Поролоновая крошка">
+                                <p class="text">Поролоновая крошка</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tex-porolon">
+                        <p class="text2">Технический поролон</p>
+                        <div class="tovar">
+                            <div class="texpart1">
+                                <div class="tex">
+                                    <img class="5" src="../IMG/body/tovar/5.png" alt="Упаковочный поролон">
+                                    <p class="text">Упаковочный поролон</p>
+                                </div>
+                                <div class="tex">
+                                    <img class="6" src="../IMG/body/tovar/6.png" alt="Акустический поролон">
+                                    <p class="text">Акустический поролон</p>
+                                </div>
+                                <div class="tex">
+                                    <img class="7" src="../IMG/body/tovar/7.png" alt="Губки поролоновые">
+                                    <p class="text">Губки поролоновые</p>
+                                </div>
+                                <div class="tex">
+                                    <img class="8" src="../IMG/body/tovar/8.png" alt="Малярные шубки и валики">
+                                    <p class="text">Малярные шубки и валики</p>
+                                </div>
+                            </div>
+                            <div class="texpart2">
+                                <div class="tex">
+                                    <img class="9" src="../IMG/body/tovar/9.png" alt="Поролон для автомобиля">
+                                    <p class="text">Поролон для автомобиля</p>
+                                </div>
+                                <div class="tex">
+                                    <img class="10" src="../IMG/body/tovar/10.png" alt="Маты для спортивных залов">
+                                    <p class="text">Маты для спортивных залов</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="container">
+                <div class="text">Преимущества поролоновых изделий</div>
+            </div>
+            <div class="advantages__container">
+                <div class="advantages-items">
+                    <div class="cont1">
+                        <div class="part1">
+                            <div class="adv">
+                                <img class="f1" src="../IMG/advantages/1.png" alt="/">
+                                <p class="f">Ортопедические свойства</p>
+                            </div>
+                            <div class="adv">
+                                <img class="f1" src="../IMG/advantages/2.png" alt="/">
+                                <p class="f">Прочность</p>
+                            </div>
+                            <div class="adv">
+                                <img class="f1" src="../IMG/advantages/3.png" alt="/">
+                                <p class="f">Эластичность</p>
+                            </div>
+                            <div class="adv">
+                                <img class="f1" src="../IMG/advantages/4.png" alt="/">
+                                <p class="f">Хороший воздухообмен</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont2">
+                        <div class="part2">
+                            <div class="adv">
+                                <img class="f1" src="../IMG/advantages/5.png" alt="/">
+                                <p class="f">Пористость</p>
+                            </div>
+                            <div class="adv">
+                                <img class="f1" src="../IMG/advantages/6.png" alt="/">
+                                <p class="f">Термоустойчивость</p>
+                            </div>
+                            <div class="adv">
+                                <img class="f1" src="../IMG/advantages/7.png" alt="/">
+                                <p class="f">Отличные поддерживающие <br> качества<br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="kompaniya__inner">
+            <div class="container">
+                <div class="kompaniya">
+                    <div class="photo">
+                        <img src="../IMG/body/znakoms.png" alt="/">
+                    </div>
+                    <div class="textPhoto">
+                        <div class="text1">Познакомтесь с нашей компанией</div>
+                        <div class="text2">Равным образом, разбавленное изрядной долей эмпатии, рациональное
+                            мышление
+                            однозначно фиксирует необходимость форм воздействия! Современные технологии достигли
+                            такого
+                            уровня, что существующая теория не оставляет шанса для направлений прогрессивного
+                            развития. С
+                            другой стороны, высококачественный прототип будущего проекта говорит о возможностях
+                            системы
+                            массового участия</div>
+                        <div class="btn">
+                            <a class="podrobnee" href="#">Подробнее</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="vstavka_inner">
+            <div class="container">
+                <div class="text">
+                    <div class="part1">
+                        <div class="text1"><b>Заказать услугу</b> вы можете,<br>
+                            <nobr>позвонив по телефону или оставив заявку</nobr>
+                        </div>
+
+                    </div>
+                    <div class="part2">
+                        <div class="text2">+7 800 960 80 00</div>
+                        <div class="btn">
+                            <a href="zayvka">Оставить заявку</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="wrapper">
+            <!-- Контент -->
+            <div class="container">
+                <div class="slider">
+                    <div class="slider__item filter">
+                        <img src="../IMG/sertifikati/1.png" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="../IMG/sertifikati/2.png" alt="">
+                    </div>
+                    <div class="slider__item filter">
+                        <img src="../IMG/sertifikati/3.png" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="../IMG/sertifikati/1.png" alt="">
+                    </div>
+                </div>
+
+                <!-- Подключаем jQuery -->
+                <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                <!-- Подключаем слайдер Slick -->
+                <script src="../js/slick.min.js"></script>
+                <!-- Подключаем файл скриптов -->
+                <script src="../js/script.js"></script>
+            </div>
+
+        </div>
+        <div class="btn">
+            <a class="posmotret_sertifikati" href="#">Посмотреть все сертификаты</a>
+        </div>
+
+        <section class="popular">
+            <div class="container">
+                <div class="tovar">
+                    <div class="text">Популярные товары</div>
+                    <div class="knopki">
+                        <div class="btn">
+                            <a class="meb" href="#">Мебельный поролон</a>
+                        </div>
+
+                        <div class="btn">
+                            <a class="tex" href="#">Технический поролон</a>
+                        </div>
+                    </div>
+        </section>
+        <div class="wrapper">
+            <div class="container">
+                <div class="slider">
+                    <div class="slider__item filter">
+                        <div class="par">
+                            <div class="tv">
+                                <img class="f1" src="../IMG/body/popular/1.png" alt="/">
+                            </div>
+                            <div class="text1">Поролон 1200х2000х2 мм</div>
+                            <div class="text2">Повседневная практика показывает, что высокое качество позиционных
+                                исследований
+                                однозначно фиксирует необходимость форм воздействия.</div>
+                            <div class="niz">
+                                <div class="k1">6 000 руб.</div>
+                                <div class="btn">
+                                    <a class="podrobnee" href="#">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="par">
+                            <div class="tv">
+                                <img class="f1" src="../IMG/body/popular/2.png" alt="/">
+                            </div>
+                            <div class="text1">Малярный валик</div>
+                            <div class="text2">Повседневная практика показывает, что высокое качество позиционных
+                                исследований
+                                однозначно фиксирует необходимость форм воздействия.</div>
+                            <div class="niz">
+                                <div class="k1">12 500 руб.</div>
+                                <div class="btn">
+                                    <a class="podrobnee" href="#">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item filter">
+                        <div class="par">
+                            <div class="tv">
+                                <img class="f1" src="../IMG/body/popular/3.png" alt="/">
+                            </div>
+                            <div class="text1">Акустический поролон</div>
+                            <div class="text2">Повседневная практика показывает, что высокое качество позиционных
+                                исследований
+                                однозначно фиксирует необходимость форм воздействия.</div>
+                            <div class="niz">
+                                <div class="k1">3 250 руб.</div>
+                                <div class="btn">
+                                    <a class="podrobnee" href="#">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="par">
+                            <div class="tv">
+                                <img class="f1" src="../IMG/body/popular/4.png" alt="/">
+                            </div>
+                            <div class="text1">Поролон 1200х2000х2 мм</div>
+                            <div class="text2">Повседневная практика показывает, что высокое качество позиционных
+                                исследований
+                                однозначно фиксирует необходимость форм воздействия.</div>
+                            <div class="niz">
+                                <div class="k1">15 000 руб.</div>
+                                <div class="btn">
+                                    <a class="podrobnee" href="#">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Подключаем jQuery -->
+                    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                    <!-- Подключаем слайдер Slick -->
+                    <script src="../js/slick.min.js"></script>
+                    <!-- Подключаем файл скриптов -->
+                    <script src="../js/script.js"></script>
+                </div>
+            </div>
+        </div>
+        <div class="knp">
+            <a class="smotret" href="#">Смотреть каталог товаров</a>
+        </div>
+
+        <section class="vstavka_inner2">
+            <div class="container">
+                <div class="text1">Если у вас остались вопросы, оставьте заявку<br>
+                    и мы перезвоним вам в ближайшее время</div>
+                <div class="form">
+                    <form action="" method="">
+                        <input type="text" class="name" name="name" value="Введите имя *">
+                        <input type="text" class="name" name="name" value="Номер телефона *">
+                        <input type="text" class="name" name="name" value="Комментарий *">
+                    </form>
+                </div>
+                <div class="btn">
+                    <a href="zayvka">Отправить</a>
+                </div>
+                <div class="text2">Я ознакомлен с политикой конфиденциальности и согласен<br> на обработку персональных
+                    данных</div>
+
+
+            </div>
+        </section>
+        <section class="CEO">
+            <div class="container">
+                <div class="texts">
+                    <div class="text1">СЕО</div>
+                    <div class="text2">Равным образом, выбранный нами инновационный путь играет важную роль в
+                        формировании
+                        поставленных обществом задач. В своём стремлении повысить качество жизни, они забывают, что
+                        постоянный количественный рост и сфера нашей активности играет определяющее значение для
+                        модели
+                        развития! Высокий уровень вовлечения представителей целевой аудитории является четким
+                        доказательством простого факта: базовый вектор развития представляет собой интересный
+                        эксперимент
+                        проверки системы массового участия. Прежде всего, глубокий уровень погружения выявляет
+                        срочную
+                        потребность соответствующих условий активизации. Каждый из нас понимает очевидную вещь:
+                        современная
+                        методология разработки создаёт необходимость включения в производственный план целого ряда
+                        внеочередных мероприятий с учётом комплекса системы массового участия.</div>
+                    <div class="line2"> </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="part1">
+                        <div class="logo">
+                            <img src="../IMG/head/Neveon_Logo_black_Logo 1.svg" alt="">
+                        </div>
+                        <div class="text1">ООО “NEVEON” © 2010-2021</div>
+                        <div class="text2"> Продукция из поролона, поролон оптом,<br> технический поролон, мебельный
+                            поролон</div>
+                        <div class="text3">Политика конфиденциальности</div>
+                        <div class="text4">Все права защищены</div>
+                    </div>
+
+                    <div class="part2">
+                        <a class="text" href="#">Главная<br>
+                            Каталог<br>
+                            Производство<br>
+                            Оплата и доставка</a>
+                    </div>
+                    <div class="part3">
+                        <a class="text" href="#">
+                            Статьи<br>
+                            О компании<br>
+                            Контакты<br>
+                            Сертификаты</a>
+                    </div>
+
+                    <div class="part4">
+                        <div class="text1">+7 (800) 960-80-00</div>
+                        <div class="text2">ПН-ПТ 08:00-21:00
+                        </div>
+                        <div class="text3">г. Калининград <br> ул. Независимости, д. 10</div>
+                        <div class="text4">support@gmail.com</div>
+                        <div class="site">
+                            <a href="https://mtsite.ru/"><img src= "../IMG/footer/site.png" alt="/"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a href="#" class="back-to-top"></a>
+    </footer>
+</body>
+
+</html>
